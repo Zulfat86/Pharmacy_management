@@ -1,5 +1,10 @@
-body {
+html, body {
     min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     background: radial-gradient(circle at top center, rgba(13, 110, 253, 0.14), transparent 28%),
                 linear-gradient(180deg, #eef4ff 0%, #f8f9fd 42%, #ffffff 100%);
 }
