@@ -1,16 +1,11 @@
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     background: radial-gradient(circle at top center, rgba(13, 110, 253, 0.14), transparent 28%),
                 linear-gradient(180deg, #eef4ff 0%, #f8f9fd 42%, #ffffff 100%);
 }
 
 main {
     flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 3rem 1rem;
 }
 
@@ -28,22 +23,6 @@ main {
     padding: 2rem;
 }
 
-.login-illustration {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 1.5rem;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #dce9ff, #ecf5ff);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0.75rem 1.75rem rgba(13, 110, 253, 0.08);
-}
-
-.login-illustration img {
-    width: 72px;
-    height: 72px;
-}
 
 .login-card .form-control,
 .login-card .form-select {
